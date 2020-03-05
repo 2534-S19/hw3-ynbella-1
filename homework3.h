@@ -1,8 +1,8 @@
 /*
  * homework3.h
  *
- *  Created on:
- *      Author:
+ *  Created on: 05 March 2020
+ *      Author: Youness Bella
  */
 
 
@@ -18,9 +18,5 @@ void changeLaunchpadLED2(unsigned int count);
 void changeBoosterpackLED(unsigned int count);
 // This function serves as a debounce state machine for Boosterpack button S1
 bool fsmBoosterpackButtonS1(unsigned int buttonhistory);
-
-
-// TODO: Define any constants that are local to homework.c using #define
-
 
 #endif /* HOMEWORK3_H_ */
