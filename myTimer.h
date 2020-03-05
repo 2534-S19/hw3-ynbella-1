@@ -1,8 +1,8 @@
 /*
  * myTimer.h
  *
- *  Created on:
- *      Author:
+ *  Created on: 05 March 2020
+ *      Author: Youness Bella
  */
 
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
@@ -25,11 +25,8 @@ bool timer1Expired(void);
 // This is an initial value for use in the TimerExpired functions.
 #define MAX_VALUE           0xFFFFFFFF
 
-// TODO: Determine values to represent the timer count values for one second (Timer0) and one millisecond (Timer1)
-#define TIMER0_COUNT        1
-#define TIMER1_COUNT        1
-
-// TODO: Define any constants that are local to myTimer.c using #define
+#define TIMER0_COUNT        3000000
+#define TIMER1_COUNT        3000
 
 
 #endif /* MYTIMER_H_ */
