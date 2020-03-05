@@ -48,7 +48,44 @@ void turnOn_BoosterpackLEDBlue();
 // This function turns off Boosterpack Blue LED.
 void turnOff_BoosterpackLEDBlue();
 
-// TODO: Define any constants that are local to myGPIO.c using #define
+#define LAUNCHPAD_S1_PORT   1
+#define LAUNCHPAD_S1_PIN    BIT1
 
+#define LAUNCHPAD_S2_PORT   1
+#define LAUNCHPAD_S2_PIN    BIT4
+
+#define BOOSTERPACK_S1_PORT 5
+#define BOOSTERPACK_S1_PIN  BIT1
+
+#define BOOSTERPACK_S2_PORT 3
+#define BOOSTERPACK_S2_PIN  BIT5
+
+// Launchpad LED1 - P1.0
+#define LAUNCHPAD_LED1_PORT 1
+#define LAUNCHPAD_LED1_PIN  BIT0
+
+// Launchpad LED2 Red - P2.0
+#define LAUNCHPAD_LED2_RED_PORT 2
+#define LAUNCHPAD_LED2_RED_PIN  BIT0
+
+// Launchpad LED2 Green - P2.1
+#define LAUNCHPAD_LED2_GREEN_PORT   2
+#define LAUNCHPAD_LED2_GREEN_PIN    BIT1
+
+// Launchpad LED2 Blue - P2.2
+#define LAUNCHPAD_LED2_BLUE_PORT    2
+#define LAUNCHPAD_LED2_BLUE_PIN     BIT2
+
+// Boosterpack LED Red - P2.6
+#define BOOSTERPACK_LED_RED_PORT    2
+#define BOOSTERPACK_LED_RED_PIN     BIT6
+
+// Boosterpack LED Green - P2.4
+#define BOOSTERPACK_LED_GREEN_PORT  2
+#define BOOSTERPACK_LED_GREEN_PIN   BIT4
+
+// Boosterpack LED Blue - P5.6
+#define BOOSTERPACK_LED_BLUE_PORT   5
+#define BOOSTERPACK_LED_BLUE_PIN    BIT6
 
 #endif /* MYGPIO_H_ */
